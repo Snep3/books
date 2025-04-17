@@ -12,3 +12,5 @@
 5. to see the frontend open on google - http://localhost:5173/
 
 6. from the frontend you can add books and author's name to the json backend
+
+-gavriel, matar, gil, adir, shmuel
