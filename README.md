@@ -1,6 +1,6 @@
 # books
 
-
+0. **unzip the file**
 1. Open 2 different therminals - one backend, the other frontend
 
 2. in the backend therminal - do 'cd backend' and then 'node Server.js' (the capital S is important)
