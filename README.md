@@ -1,9 +1,9 @@
 # books
 
 
-1.Open 2 different therminals - one backend, the other frontend
+1. Open 2 different therminals - one backend, the other frontend
 
-2.in the backend therminal - do 'cd backend' and then 'node Server.js' (the capital S is important)
+2. in the backend therminal - do 'cd backend' and then 'node Server.js' (the capital S is important)
 
 3. in the frontend therminal - do 'cd frontend' then 'cd homeworkP' and then 'npm run dev'
 
