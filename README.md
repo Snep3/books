@@ -1,7 +1,7 @@
 # books
 
 **0. you will need to open a therminal to install node_modules <br>
-'cd homeworkP', 'cd frontend', 'cd homeworkP' and then 'npm install' so you'll have the entire react library ready**
+'cd frontend', 'cd homeworkP' and then 'npm install' so you'll have the entire react library ready**
 
 1. Open 2 different therminals - one backend, the other frontend
 
@@ -18,7 +18,7 @@
 (how to download the file - 
 go here - https://download-directory.github.io/
 then copy the link and put it in the box https://github.com/Snep3/books/tree/main/homeworkP <br>
-after downloading create a file named homeworkP, put everything from the zip inside it. <br>
+after downloading create a file, put everything from the zip inside it. <br>
 then go to the top and do the steps )
 
 
