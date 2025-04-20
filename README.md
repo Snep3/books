@@ -15,4 +15,9 @@
 
 6. from the frontend you can add books and author's name to the json backend
 
+(how to download the file - 
+go here - https://download-directory.github.io/
+then copy the link and put it in the box https://github.com/Snep3/books/tree/main/homeworkP )
+
+
 -gavriel, matar, gil, adir, shmuel
