@@ -17,7 +17,8 @@
 
 (how to download the file - 
 go here - https://download-directory.github.io/
-then copy the link and put it in the box https://github.com/Snep3/books/tree/main/homeworkP )
+then copy the link and put it in the box https://github.com/Snep3/books/tree/main/homeworkP
+then go to the top and do the steps )
 
 
 -gavriel, matar, gil, adir, shmuel
