@@ -18,6 +18,7 @@
 (how to download the file - 
 go here - https://download-directory.github.io/
 then copy the link and put it in the box https://github.com/Snep3/books/tree/main/homeworkP
+after downloading create a file named homeworkP, put everything from the zip inside it.
 then go to the top and do the steps )
 
 
