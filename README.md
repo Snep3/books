@@ -1,6 +1,6 @@
 # books
 
-** 0. if you download the file as is (not the zip) you'll need to do: <br>
+**0. if you download the file as is (not the zip) you'll need to do: <br>
 'cd homeworkP', 'cd frontend', 'cd homeworkP' and then 'npm install' so you'll have the entire react library ready**
 
 1. Open 2 different therminals - one backend, the other frontend
