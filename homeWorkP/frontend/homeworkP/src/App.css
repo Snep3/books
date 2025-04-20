@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ED8258;
+    background: linear-gradient(90deg, rgba(237, 130, 88, 1) 0%, rgba(201, 95, 52, 1) 50%, rgba(237, 130, 88, 1) 100%);
+    font-family: "Unkempt", cursive;
+}
+
+.left-container{
+    width: 60%;
+    float: left;
+}
+
+
+
+.HeaderLeft{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: 60px;
+
+}
+
+.SaveMyBook{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #944728  ;
+
+}
+
+.Main{
+
+    height: 60vh;
+    width: fit-content; 
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap : 15px; 
+}
+
+.Instructions{
+        color:#78361C;
+        font-size: 40px;
+        font-weight: bold;
+}
+
+.Inputs{
+    background-color: #b1532d   ;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    border: 3px solid #78361C;
+
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 3px solid #78361C;
+    font-size: 20px;
+    color: #6a6b9b
+
+} 
+
+.Message{
+    margin-top: -5px;
+    margin-left: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.SaveBtn{
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    background-color: #78361C;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.BtnWrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+
+.right-container{
+   background-color: rgb(238, 228, 210);
+    width: 40%;
+    float: right;
+    height: 100vh;
+    border-left: 4px solid #78361C;
+}
+
+.HeaderRight{
+    color: #78361C;
+    font-size: 50px;
+    font-weight: bold; 
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.BookList{
+    margin-top: 35px;;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #984929;
+    font-size: 30px;
+    font-family:monospace;
+}
+
+.Book{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #6a6b9b;
+}
+
+.BookAuthor{
+    font-size:13px;
+    margin-left: 8px;
+}
+
+.DeleteBtn{
+ color:  rgb(160, 7, 7);
+ border: 0px;
+ background: none;
+ font-size: 20px;
+ cursor: pointer;
+}
+
+@media screen and (max-width: 2560px) {
+    .Main{
+        height: auto;
+    }
+
+    .BookAuthor{
+        font-size: 22px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1200px) {
+    .left-container, .right-container{
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .HeaderLeft, .HeaderRight{
+        font-size: 30px;
+    }
+    .Main{
+        height: auto;
+    }
+    .BookList{
+        font-size: 18px;
+    }
+    .BookAuthor{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .left-container, .right-container{
+        width: 100%;
+        float: none;
+        height: auto;
+    }
+    .HeaderLeft, .HeaderRight{
+        font-size: 20px;
+    }
+    .Main{
+        height: auto;
+    }
+    .BookList{
+        font-size: 15px;
+    }
+    .BookAuthor{
+        font-size: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .HeaderLeft, .HeaderRight{
+        font-size: 15px;
+    }
+    .Main{
+        height: auto;
+    }
+    .right-container{
+        border-left: none;
+    }
+    .BookList{
+        font-size: 12px;
+    }
+    .BookAuthor{
+        font-size: 8px;
+    }
+}
